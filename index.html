@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smeet Devani</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Dynamic Island / Apple Style Notification -->
+    <div class="dynamic-island-container">
+        <div class="dynamic-island" id="dynamicIsland">
+            <div class="island-nav">
+                <a href="#hero">Home</a>
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">SUMIT <span class="gradient-text">DEVANI</span></h1>
+            <p class="fade-in delay-1">Video Editor & 3D Artist | Helping Brands Connect through Emotional Storytelling
+                & High-End Motion</p>
+            <div class="hero-btns fade-in delay-2">
+                <a href="#work" class="btn primary">View Work</a>
+                <a href="#contact" class="btn secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-image fade-in delay-3">
+            <div class="image-wrapper">
+                <img src="profile.jpg" alt="Smeet Devani">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="section-title reveal">Technical Mastery</h2>
+        <div class="skills-grid">
+            <div class="skill-card reveal glass">
+                <i class="fab fa-adobe"></i>
+                <h3>Premiere Pro</h3>
+                <p>Documentary-style edits, cinematic storytelling.</p>
+            </div>
+            <div class="skill-card reveal glass">
+                <i class="fas fa-magic"></i>
+                <h3>After Effects</h3>
+                <p>Motion graphics & high-end transitions.</p>
+            </div>
+            <div class="skill-card reveal glass">
+                <i class="fas fa-cube"></i>
+                <h3>Blender 3D</h3>
+                <p>3D Modeling, rendering & virtual environments.</p>
+            </div>
+            <div class="skill-card reveal glass">
+                <i class="fas fa-brush"></i>
+                <h3>Photoshop</h3>
+                <p>Visual identity & branding graphics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Slider Section -->
+    <section class="work" id="work">
+        <h2 class="section-title reveal">Featured Projects</h2>
+        <div class="work-slider-container reveal">
+            <div class="work-slider" id="workSlider">
+                <div class="work-card glass">
+                    <div class="work-preview">
+                        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80"
+                            alt="Work 1">
+                    </div>
+                    <div class="work-info">
+                        <h3>Cinematic Documentary</h3>
+                        <p>Emotional storytelling through precise cuts.</p>
+                    </div>
+                </div>
+                <div class="work-card glass">
+                    <div class="work-preview">
+                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80"
+                            alt="Work 2">
+                    </div>
+                    <div class="work-info">
+                        <h3>3D Product Render</h3>
+                        <p>Apple-style minimalist product visualization.</p>
+                    </div>
+                </div>
+                <div class="work-card glass">
+                    <div class="work-preview">
+                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80"
+                            alt="Work 3">
+                    </div>
+                    <div class="work-info">
+                        <h3>Motion Graphics</h3>
+                        <p>Dynamic brand identities in motion.</p>
+                    </div>
+                </div>
+                <!-- Duplicate for seamless loop if needed, or JS handled -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-text reveal">
+                <h2 class="section-title">Beyond the Canvas</h2>
+                <p>I don’t just edit videos; I craft emotional experiences. Beyond simple cuts, I focus on the
+                    <strong>"soul"</strong> of the footage—using cinematic storytelling, precision color grading, and
+                    immersive sound design to bring a brand's vision to life.
+                </p>
+                <p>My goal is to transform your requirements into a high-end visual narrative that resonates with your
+                    audience.</p>
+            </div>
+            <div class="about-stats reveal">
+                <div class="stat-item glass">
+                    <h4>4+</h4>
+                    <span>Years Exp.</span>
+                </div>
+                <div class="stat-item glass">
+                    <h4>50+</h4>
+                    <span>Projects</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title reveal">Let's Create Together</h2>
+        <div class="contact-grid">
+            <a href="tel:9313429998" class="contact-card glass reveal">
+                <i class="fas fa-phone"></i>
+                <p>+91 93134 29998</p>
+            </a>
+            <a href="mailto:sumitdevani0@gmail.com" class="contact-card glass reveal">
+                <i class="fas fa-envelope"></i>
+                <p>sumitdevani0@gmail.com</p>
+            </a>
+            <a href="https://wa.me/919313429998" target="_blank" class="contact-card glass reveal">
+                <i class="fab fa-whatsapp"></i>
+                <p>WhatsApp</p>
+            </a>
+        </div>
+
+        <div class="social-links reveal">
+            <a href="https://www.linkedin.com/in/sumitdevani/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/3.45am.stories/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Smeet Devani • Designed with Motion & Precision</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
